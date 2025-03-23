@@ -12,7 +12,7 @@ window.addEventListener("load", function() {
     constructor(game) {
       this.game = game
       this.sprite = new Image();
-      this.sprite.src = "/Assets/kisses.png";
+      this.sprite.src = "kisses.png";
       this.x = 700;
       this.y = 300;
       this.w = 150;
@@ -44,7 +44,7 @@ window.addEventListener("load", function() {
       this.game = game
       this.game = game;
       this.sprite = new Image();
-      this.sprite.src = "/Assets/phone.png";
+      this.sprite.src = "phone.png";
       this.x = 1000;
       this.y = 375;
       this.w = 75;
@@ -69,7 +69,7 @@ window.addEventListener("load", function() {
     constructor(game) {
       this.game = game;
       this.sprite = new Image();
-      this.sprite.src = "/Assets/player.png";
+      this.sprite.src = "player.png";
       this.x = 200;
       this.y = 300;
       this.w = 150;
